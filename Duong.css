@@ -1,0 +1,96 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url("b3b033646776f5a31ebb74b177c312ee.jfif");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.navbar {
+    display: flex;
+    background-color: rgb(255, 255, 255, 0);
+    font-family: 'Inter';
+    font-style: regular;
+    font-weight: 400;
+    line-height: 17px;
+    font-size: 14px;
+    color:rgb(255, 255, 255);
+    justify-content: space-around;
+    margin-left: 0px;
+    margin-top: 25px;
+}
+
+.nav-item {
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: center;
+}
+
+img {
+    width: 30px;
+    height: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color:rgb(255, 255, 255, 0);
+}
+
+.img-mid {
+    display: block;
+    text-align: center;
+    padding: 2px;
+    margin: 0;
+}
+
+.mid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-style: medium;
+    font-size: 20px;
+    line-height: 28px;
+    line-height: 112%;
+    text-align: center;
+    vertical-align: top;
+    color: #FFFFFF;
+    fill: solid;
+}
+
+.mid p {
+    padding: 5px;
+    margin: 0;
+}
+
+#endd {
+    margin-bottom: 50px;
+}
+
+#beginn {
+    margin-top: 100px;
+}
+
+input {
+    border-style: solid; 
+    border-radius: 5px;
+    border-color: #FFFFFF;
+    background-color: rgb(255, 255, 255, 0);
+    color: rgb(255, 255, 255);
+    padding: 10px 30px 10px 30px;
+    border-width: 1px;
+}
+
+input:hover {
+    cursor: pointer;
+}
+
+#begin {
+    margin-left: 50px;
+}
+
+#end {
+    margin-right: 50px;
+}
+
+.logo-text {
+    margin: 0;
+}
