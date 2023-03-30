@@ -1,5 +1,5 @@
 body {
-    width: 100%;
+    width: 100vw;
     height: 100%;
     background-image: url("b3b033646776f5a31ebb74b177c312ee.jfif");
     background-repeat: no-repeat;
@@ -18,6 +18,19 @@ body {
     justify-content: space-around;
     margin-left: 0px;
     margin-top: 25px;
+}
+
+.navbar-mobile {
+    display: flex;
+    background-color: rgb(255, 255, 255, 0);
+    font-family: 'Inter';
+    font-style: regular;
+    font-weight: 400;
+    line-height: 17px;
+    font-size: 14px;
+    color:rgb(255, 255, 255);
+    justify-content: space-around;
+    margin-left: 0px;
 }
 
 .nav-item {
@@ -75,7 +88,7 @@ input {
     border-color: #FFFFFF;
     background-color: rgb(255, 255, 255, 0);
     color: rgb(255, 255, 255);
-    padding: 10px 30px 10px 30px;
+    padding: 10px 16px 10px 16px;
     border-width: 1px;
 }
 
@@ -93,4 +106,47 @@ input:hover {
 
 .logo-text {
     margin: 0;
+}
+
+.navbar-mobile {
+    display: none;
+    align-items: center;
+    font-size: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+@media only screen and (min-width: 46.25em) and (max-width: 64em) {
+
+    .navbar {
+        display:none;
+    }
+    .navbar-mobile {
+        display: flex;
+    }
+} 
+
+@media only screen and (max-width: 46.25em) {
+    .mid {
+        justify-content: start;
+        font-size: 16px;
+    }
+    #beginn {
+        margin-top: 20px;
+    }
+    #endd {
+        margin-bottom: 20px;
+    }
+    .navbar-mobile{
+        background-color: #3B4924;
+        display: flex;
+    }
+    .navbar {
+        display:none ;
+    }
+    .mid {
+        margin-top: 150px;
+    }
 }
